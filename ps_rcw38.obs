@@ -1,11 +1,11 @@
 offset_Az=0             # horizontal offset az
 offset_El=0             # horizontal offset el
-lambda_on=-84.9232   # x coordinate of on position (deg)
-beta_on= -16.2003   # y coordinate of on position (deg)
-lambda_off=-83.5587  # x coordinate of off position (deg)
-beta_off= -16.6110    # y coordinate of off position (deg)
-coordsys="j2000"        # coordinate:j2000, b1950, or galactic
-object="M17SW"       # name of target object
+lambda_on= 267.9528   # x coordinate of on position (deg)
+beta_on= -1.076613   # y coordinate of on position (deg)
+lambda_off= 265.8  # x coordinate of off position (deg)
+beta_off= -2.2333    # y coordinate of off position (deg)
+coordsys="galactic"        # coordinate:j2000, b1950, or galactic
+object="RCW38"       # name of target object
 vlsr=0.                 # Vlsr in km/s
 tuning_vlsr=0.          #
 cosydel=coordsys        # coordinate of map offset:j2000, b1950, galactic, horizontal  
