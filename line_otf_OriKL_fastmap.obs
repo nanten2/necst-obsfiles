@@ -1,23 +1,23 @@
 offset_Az=0             # horizontal offset az
 offset_El=0             # horizontal offset el
-lambda_on=267.9528   # x coordinate of on position (deg)
-beta_on=-1.076613      # y coordinate of on position (deg)
-lambda_off= 265.8  # x coordinate of off position (deg)
-beta_off= -2.2333    # y coordinate of off position (deg)
-coordsys="galactic"        # coordinate:j2000, b1950, or galactic
-object="RCW38"       # name of target object
+lambda_on= 83.80613   # x coordinate of on position (deg)
+beta_on=-5.374320      # y coordinate of on position (deg)
+lambda_off= 82.5590  # x coordinate of off position (deg)
+beta_off= -5.6683    # y coordinate of off position (deg)
+coordsys="j2000"        # coordinate:j2000, b1950, or galactic
+object="OriKL"       # name of target object
 vlsr=0.                 # Vlsr in km/s
 tuning_vlsr=0.          #
 cosydel=coordsys # coordinate of map offset:j2000, b1950, galactic, horizontal
 otadel="N"		# correction frag of map offset: Y or N
-start_pos_x=-120.	# x start position (arcsec)
-start_pos_y=-120.	# y start position (arcsec)
+start_pos_x=-450.	# x start position (arcsec)
+start_pos_y=-450.	# y start position (arcsec)
 scan_direction=0	# 0:x, 1:y
-exposure=0.6		# >= 0.04 sec , integration time in sec
+exposure=0.1		# >= 0.04 sec , integration time in sec
 otfvel= 30 / exposure	# arcsec/sec
-otflen=exposure*9	# sec
+otflen=exposure*31	# sec
 grid=30			# arcsec
-N=9			# number of scanline
+N=31			# number of scanline
 lamdel_off=0 		# x coordinate of offpoint offset
 betdel_off=0 		# y coordinate of offpoint offset
 otadel_off="N"		# correction frag of offpoint offset: Y or N

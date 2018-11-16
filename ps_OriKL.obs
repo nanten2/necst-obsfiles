@@ -22,7 +22,7 @@ purpose=1               # observation purpose: 0 normal, 1 pointing, 2 calib
 tsys=0                  # system temperature
 nSeq=5                  # number of observation sequence  
 nON=1                   # number of ON position between OFFs
-exposure=20             # integration time in sec
+exposure=10             # integration time in sec
 exposure_off=10         # exposure_off=sqrt(nOn) * exposure
 load_interval=5         # load mesurement interval in min  
 cold_flag="N"           #cold load mesuremanet flag: "N" or "Y" 
