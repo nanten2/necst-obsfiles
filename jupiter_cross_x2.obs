@@ -10,12 +10,12 @@ vlsr=0.                 # Vlsr in km/s
 tuning_vlsr=0.          #
 cosydel="HORIZONTAL" # coordinate of map offset:j2000, b1950, galactic, horizontal
 otadel="N"		# correction frag of map offset: Y or N
-start_pos_x=-150.0		# x start position (arcsec)
+start_pos_x=-600.0	# x start position (arcsec)
 start_pos_y=0.0		# y start position (arcsec)
 scan_direction=0	# 0:x, 1:y
-exposure=10.0		# >= 0.04 sec , integration time in sec
+exposure=5.0		# >= 0.04 sec , integration time in sec
 otfvel= 20 / exposure	# arcsec/sec
-otflen=exposure*30	# sec
+otflen=exposure*60	# sec
 grid=20			# arcsec
 N=1			# number of scanline
 lamdel_off=1000 		# x coordinate of offpoint offset
