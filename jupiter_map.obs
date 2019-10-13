@@ -11,7 +11,7 @@ tuning_vlsr=0.          #
 cosydel="HORIZONTAL" # coordinate of map offset:j2000, b1950, galactic, horizontal
 otadel="N"		# correction frag of map offset: Y or N
 start_pos_x=-1800.0		# x start position (arcsec)
-start_pos_y=0.0		# y start position (arcsec)
+start_pos_y=-1800.0		# y start position (arcsec)
 scan_direction=0	# 0:x, 1:y
 exposure=3.0		# >= 0.04 sec , integration time in sec
 otfvel= 60 / exposure	# arcsec/sec
