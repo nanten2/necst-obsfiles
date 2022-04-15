@@ -4,10 +4,10 @@ OBJECT = "IRC10216"
 MOLECULE_1 = "J10_12CO"
 
 [coordinate]
-LambdaOn = "146.98871deg"
+LamdaOn = "146.98871deg"
 BetaOn = "13.278574deg"
 #RELATIVE = false
-LambdaOff = "147.23930deg"
+LamdaOff = "147.23930deg"
 BetaOff = "13.279295deg"
 #deltaLambda = {}
 #deltaBeta = {}
