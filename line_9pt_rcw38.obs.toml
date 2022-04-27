@@ -1,0 +1,31 @@
+[observation_property]
+OBSERVER = "amigos"
+OBJECT = "RCW38"
+MOLECULE_1 = "J10_12CO"
+
+[coordinate]
+LamdaOn = "267.9528deg"
+BetaOn = "-1.076613deg"
+RELATIVE = false
+LamdaOff = "265.8deg"
+BetaOff = "-2.2333deg"
+deltaLambda = {}
+deltaBeta = {}
+DELTA_COORD = "J2000"
+OTADEL = true
+COORD_SYS = "galactic"
+
+[pointing_property]
+N = 1
+METHOD = 9
+GridAz = "30arcsec"
+GridEl = "30arcsec"
+integ_on = "10s"
+OffsetAz = "0arcsec"
+OffsetEl = "0arcsec"
+
+[calibration]
+integ_off = "10s"
+integ_hot = "10s"
+off_interval = "1scan"
+load_interval = "5min"
